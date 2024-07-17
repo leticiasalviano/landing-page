@@ -22,7 +22,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #BFF272;
+    background-color: #bff272;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -51,7 +51,7 @@ header>.interface {
 header a {
     font-size: 1.5rem;
     font-size: 0.875rem;
-    color: #ffffff;
+    color: #bff272;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
