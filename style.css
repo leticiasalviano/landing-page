@@ -1,14 +1,12 @@
 /* ESTILO GERAL */
-* {
+body {
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/17095071-multi-camadas-textura-verde-3d-papercut-camadas-no-banner-gradienteial-design-de-fundo-de-arte-de-corte-de-papel-abstrato-para-modelo-de-site-conceito-de-mapa-de-topografia-ou-corte-de-papel-de-origami-suave-vetor.jpg);
+    background-color: #FCFCF0;
+    height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-
-body {
-    background-color: #FCFCF0;
-    height: 100vh;
 }
 
 .interface {
@@ -34,7 +32,14 @@ body {
 
 /* ESTILO DO CABEÇALHO */
 header {
-    padding: 40px 4%;
+    background-image: url("https://img.freepik.com/fotos-premium/um-fundo-preto-com-uma-imagem-branca-de-um-texto-que-diz-quot-nao-quot_994023-80003.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 header>.interface {
@@ -44,7 +49,9 @@ header>.interface {
 }
 
 header a {
-    color: #5c5c5c;
+    font-size: 1.5rem;
+    font-size: 0.875rem;
+    color: #ffffff;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -62,4 +69,28 @@ header nav ul {
 header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 40px;
+}
+
+/*Estilos para dispositivos maiores*/
+@media (min-width: 768px) {
+    header>.interface {
+        padding: 40px;
+    }
+
+    header>.interface img {
+        height: 70px;
+    }
+}
+
+/*Estilos para dispositivos menores*/
+@media (max-width: 767px) {
+    header>.interface {
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header>.interface img {
+        height: 50px;
+    }
 }
