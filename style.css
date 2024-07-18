@@ -98,7 +98,8 @@ h1 {
 
 /* ESTILO DO CABEÇALHO */
 header {
-    padding: 20px;
+    padding: 0px;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
