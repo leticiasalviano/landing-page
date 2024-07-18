@@ -1,58 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Nutricionista.</title>
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <title>Landing Page</title>
 </head>
 <body>
     
-    <header>
-        <div class="interface">
-            <div class="logo">
-                <a href="#">
-                    <img src="images/maca-verde.png" alt="Logo da Nutricionista">
-                </a>
-            </div><!--logo-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-image: url(imagens/patinha\ rosa.png);">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="text-dark">Manja</span>Bem</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="#">Depoimentos</a></li>
-                    <li><a href="#">Benefícios</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Sobre</a></li>
-                </ul>
-            </nav>
 
-            <div class="btn-contato">
-                <a href="">
-                    <button>Agendar consulta</button>
-                </a>
-            </div><!--btn-contato-->
-    </header>
-
-        <h1>O que estão falando da nossa dieta?</h1>
-        <section class="cards">
-            <div class="card">
-            <img class="user" src="/images/lele.jpg" alt="Depoimento da Leticia">
-            <h3>Leticia Salviano</h3>
-            <div class="stars">
-                <img class="star" src="/images/star.svg" alt="Estrelas">
-                <img class="star" src="/images/star.svg" alt="Estrelas">
-                <img class="star" src="/images/star.svg" alt="Estrelas">
-                <img class="star" src="/images/star.svg" alt="Estrelas">
-                <img class="star" src="/images/star.svg" alt="Estrelas">
-                <p>Fui bem recebida ao nutricionista e consegui manter a minha alimentação alinhada!</p>
-            </div>
-        </section><!--Depoimentos-->
           
+          <!-- Navegação parte de cima -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Depoimentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Benefícios</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#noticias">FAQ</a>
+              </li> 
+              <a class="nav-link" href="#pets">Sobre</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+     
+         
+         
+        
+      <section id="about" class="about section-padding">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-4 col-md-12 col-12">
+                      <div class="about-img">
+                          <img src="images/img-nutri.jpg" alt="" class="img-fluid">
+                      </div>
+                  </div>
+
+                  <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                      <div class="about-text" style="margin-top: 2px;">
+                            <h2>Restaure a CONFIANÇA<br>na sua SAÚDE!</h2>
+                            <p>Acompanhamento com cuidados<br>personalizados que priorizam o seu<br><b>bem-estar e nutrição!</b></p>
+                            <a href="#" class="btn btn-light" style="background-color: #ADD96A; font-weight: 600;">FALE COMIGO!</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
 
 
+                <!-- COMENTARIOS -->
+      <section class="depoimentos section-padding" id="depoimentos">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2>Depoimentos REAIS</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci autem, excepturi alias aliquid ipsum, cupiditate fugit, esse unde qui dolorem repudiandae obcaecati dolore voluptatum similique deserunt in repellendus deleniti sapiente!</p>
+                           <br> Estamos ansiosos para ouvir a sua opinião!
+                           <br> Encaminhe seu depoimento para a gente e inspire outras pessoas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body" style="background-image: url(imagens/patinhas.png);">
+                            <img src="images/avaliacao 1.avif" style="width: 3rem; height: 3rem;" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Helena Gomes</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi ipsam nostrum illo tempora esse quibusdam.</p>
+                        <img src="images/3 estrelas.png" style="width: 10rem;">
+
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body" style="background-image: url(imagens/patinhas.png);">
+                            <img src="images/avaliacao 2.jpg" style="width: 3rem; height: 3rem;" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Pablo Pires</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi ipsam nostrum illo tempora esse quibusdam.</p>
+                        <img src="images/4 estrelas.png" style="width: 10rem;">
+
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body" style="background-image: url(imagens/patinhas.png);">
+                            <img src="images/avaliacao 3.jpg" style="width: 3rem; height: 3rem;" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Wilson Moraes</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi ipsam nostrum illo tempora esse quibusdam.</p>
+                        <img src="images/5 estrelas.png" style="width: 10rem;">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body" style="background-image: url(imagens/patinhas.png);">
+                            <img src="images/avaliacao 4.jpg"  style="width: 3rem; height: 3rem;" class="img-fluid rounded-circle">
+                        <h3 class="card-title py-2">Regina Sales</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi ipsam nostrum illo tempora esse quibusdam.</p>
+                        <img src="images/5 estrelas.png" style="width: 10rem;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+     
+
+
+                <!-- FINAL-->
+      <footer class="p-2 text-center" style="background-image: url(imagens/patinha\ rosa.png);">
+          <div class="container">
+              <p class="text-white">Desenvolvido por --> Letícia Salviano e Ryan Henrique</p>
+          </div>
+      </footer>
+    
+    
+    <!-- All Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
+
+
+
+
